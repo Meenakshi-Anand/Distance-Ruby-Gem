@@ -16,12 +16,13 @@ note that angles need to be in radians to pass to trig functions!
 
 Require the Gem:
 
-    require 'distance'
+    require 'distance_gem'
 
 ### Calculating distance in miles
 
   Example:
   ``` ruby
+  include Distance
   Coordinate = Struct.new(:latitude, :longitude)
   from_location = Coordinate.new(37.519608,  -121.92349)
   to_location =  Coordinate.new(37.519677, -121.923814)
