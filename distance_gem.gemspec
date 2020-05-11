@@ -7,4 +7,6 @@ Gem::Specification.new do |s|
     "lib/distance_gem.rb"
   ]
   s.require_paths = ["lib"]
+  s.authors = ["Meenakshi"]
+  s.homepage = 'https://github.com/Meenakshi-Anand/Distance-Ruby-Gem'
 end

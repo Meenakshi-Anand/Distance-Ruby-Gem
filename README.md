@@ -21,8 +21,9 @@ Require the Gem:
 ### Calculating distance in miles
 
   Example:
-
+  ```
   Coordinate = Struct.new(:latitude, :longitude)
   from_location = Coordinate.new(37.519608,  -121.92349)
   to_location =  Coordinate.new(37.519677, -121.923814)
   distance_between(from_location,to_location) => 0.18
+  ```
