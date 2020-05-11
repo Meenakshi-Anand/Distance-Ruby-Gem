@@ -1,4 +1,16 @@
 module Distance
+
+  # Find the distance between two latitude,longitude objects
+  #
+  # @param {latitude:Float,longitude:Float},{latitude:Float,longitude:Float}
+  # @return Float
+  #
+  # @example
+  #   Coordinate = Struct.new(:latitude, :longitude)
+  #   from_location = Coordinate.new(37.519608,  -121.92349)
+  #   to_location =  Coordinate.new(37.519677, -121.923814)
+  #   distance_between(from_location,to_location) #=> 0.18
+
   def distance_between(from, to)
     loc1 = [from.latitude,from.longitude]
     loc2 = [to.latitude,to.longitude]
